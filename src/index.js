@@ -28,11 +28,9 @@ function notify(text, time = 5000) {
     notificationElement.remove();
   }, time);
 
-
-  return notificationElement
-
+  return notificationElement;
 }
 
 notify('Hi all');
 
-console.log(notify('Notification'))
+console.log(notify('Notification'));
