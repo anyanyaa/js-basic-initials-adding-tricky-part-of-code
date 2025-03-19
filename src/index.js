@@ -32,4 +32,3 @@ function notify(text, time = 5000) {
 }
 
 notify('Hi all');
-
